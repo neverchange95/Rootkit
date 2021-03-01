@@ -1,0 +1,17 @@
+ls
+cd ..
+ls
+cd 3 (TAB)
+ls
+vim hi (TAB)
+ls
+ps aux  (ALT)y? (BACKSPACE) (BACKSPACE) (ALT)? grep keylogger
+ (DOWN) (UP) (RIGHT)a (RIGHT) (BACKSPACE) (BACKSPACE) (BACKSPACE) (BACKSPACE) (BACKSPACE)5,33 (ESC) (R_SHIFT).wq
+ls
+male (BACKSPACE) (BACKSPACE) (BACKSPACE)ke (BACKSPACE) (BACKSPACE)ake all
+insmod hi (TAB)k (TAB)
+ (UP)
+lsmod
+dmesg
+ls
+ (STRG)c
