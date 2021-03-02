@@ -7,6 +7,8 @@ If you would like to use this rootkit, make sure you run it on a virtual machine
 * Compile the file keylogger.c (i.e. gcc keylogger.c)
 * Run the executable file of the keylogger with the argument of the file "logFile.text" (i.e. ./a.out logFile.text)
 * Now search for the PID of the keylogger process (i.e ps aux | grep keylogger)
-* Go to the Rootkit folder and open the file "hidePID.c" and search for the line: ```c
-char HidePID[]= "5033"; // Hier wird die zu verbergende Prozess-ID gespeichert```
+* Go to the Rootkit folder and open the file "hidePID.c" and search for the line: 
+```C
+char HidePID[]= "5033"; // Hier wird die zu verbergende Prozess-ID gespeichert
+```
 
