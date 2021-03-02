@@ -11,4 +11,10 @@ If you would like to use this rootkit, make sure you run it on a virtual machine
 ```C
 char HidePID[]= "5033"; // Hier wird die zu verbergende Prozess-ID gespeichert
 ```
+* Change the PID "5033" to the PID where your keylogger is running
+* Save the file and run the makefile (i.e. make all)
+* Load the Rootkit into the kernel of your linux system with "insmod hidePID.ko"
+* Now your Process ID of the keylogger should be no more shown, check it with "ps aux | grep keylogger" and also the rootkit should be not listed in the lsmod output. lsmod shows you all acutal running kernel modules
+* If you now check the "logFile.text" you should see all keyboard inputs you have done from the time you started the keylogger
+* You can´t now remove the rootkit with the rmmod command, because the kernel module is not more listet in your system. To remove it, restart your system.
 
