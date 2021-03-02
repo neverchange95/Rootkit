@@ -4,7 +4,7 @@ The job of this rootkit is to hide the process identifier of the keylogger and i
 
 ### Important:
 * Use this sourcecode only on your own computer!
-* The run the rootkit you need the Linux Kernel 4.10.0-38-generic or older. With a newer Kernel it is not working!!
+* To run the rootkit you need the Linux Kernel 4.10.0-38-generic or older. With a newer Kernel it is not working!!
 
 ### Use the rootkit:
 If you would like to use this rootkit, make sure you run it on a virtual machine or on a computer without any important data, because it can damage the kernel of your system.
